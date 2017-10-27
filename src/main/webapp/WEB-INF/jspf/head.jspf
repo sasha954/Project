@@ -1,0 +1,8 @@
+<%@ include file="/WEB-INF/jspf/taglib.jspf"%>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<title><fmt:message key="${pageTitle}"/> </title>
+<link rel="stylesheet" href="weblib/bootstrap/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="weblib/bootstrap/bootstrap-theme.min.css" type="text/css">
+<link rel="stylesheet" href="weblib/animate/animate.css" type="text/css">
+<link rel="stylesheet" href="style/fonts.css" type="text/css">
+<link rel="stylesheet" href="style/main.css" type="text/css">

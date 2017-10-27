@@ -1,0 +1,24 @@
+<!--==========================================================================
+	Configuration file for DataSource and Connection pool
+	====================================================================== -->
+<Context>
+    <Resource
+            name = "jdbc/abiturient_system"
+            auth = "Container"
+            type = "javax.sql.DataSource"
+
+            maxTotal = "100"
+            maxIdle = "30"
+            maxWaitMilis = "10000"
+
+            username = "abiturient_administartor"
+            password = "administrator"
+
+            driverClassName = "com.mysql.jdbc.Driver"
+            defaultAutoCommit = "false"
+            defaultTransactionIsolation="READ_COMMITTED"
+
+            url = "jdbc:mysql://localhost:3306/abiturient_system?useSSL=true&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"
+
+    />
+</Context>

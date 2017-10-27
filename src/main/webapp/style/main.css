@@ -1,0 +1,236 @@
+* {
+    font-family: 'Jura', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background: #d4d4d4;
+}
+
+.header-link, .header-link:hover, .header-link:active,
+.header-link:focus {
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+header.main-head {
+    background: #a52a2a;
+    padding: 0;
+    /*box-shadow: inset 0px 0 60px 0px rgba(255, 255, 255, 0.4);*/
+    border-bottom: #fff 4px solid;
+}
+
+div.title-container {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2.header-title {
+    color: inherit;
+    font-size: inherit;
+}
+
+div.sign-in-container, div.user-container {
+    padding: 27px 0;
+    font-size: 22px;
+    color: #fff;
+    text-align: right;
+}
+
+a.sign-in-button, a.user-button {
+    font-size: inherit;
+    color: inherit;
+    font-family: 'Aldrich', sans-serif;
+    letter-spacing: -1px;
+    display: block;
+    height: 32px;
+    width: fit-content;
+    margin-left: 135px;
+    text-align: right;
+    transition: 0.2s;
+}
+
+a.user-button {
+    margin-left: 0;
+}
+
+a.sign-in-button:hover, a.user-button:hover {
+    text-decoration: none;
+    font-size: 23px;
+    color: #E6E6FA;
+    transition: 0.2s;
+}
+
+a.sign-in-button:focus, a.user-button:focus {
+    text-decoration: none;
+}
+
+
+div.faculty-container {
+    background: #fff;
+    margin: 10px;
+    width: 370px;
+    padding: 20px;
+    border: 1px solid #ffc9c9;
+}
+
+header.faculty-title {
+    font-family: 'Jura', sans-serif;
+}
+
+header.faculty-title > h4 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 25px;
+}
+
+div.register-button {
+    text-align: right;
+}
+
+.pagination {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.pagination > li > a, .pagination > li > span, a.link {
+    color: #a52a2a;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background: #a52a2a;
+    border-color: #a52a2a;
+}
+
+.btn-group {
+    padding: 20px 10px 10px;
+}
+
+.btn-group > button.btn {
+    background: #fff;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+.btn-default.active, .btn-default:active,
+.open > .dropdown-toggle.btn-default, .btn-default.active.focus,
+.btn-default.active:focus, .btn-default.active:hover,
+.btn-default:active.focus, .btn-default:active:focus,
+.btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover {
+    background: #fff;
+}
+
+.glyphicon {
+    font-size: small;
+}
+
+.login-form {
+    padding: 35px;
+}
+
+.form-group {
+    display: grid;
+}
+
+.registration-form {
+    width: 60%;
+    padding: 35px;
+    margin: 0 auto;
+}
+
+p.error, p[id*="error-"] {
+    padding: 15px 15px 0px;
+}
+
+.error-message {
+    height: 17px;
+    margin: -10px 0 15px;
+    color: #f13b3b;
+    font-weight: 600;
+}
+
+.user-container .dropdown-menu {
+    top: 75%;
+}
+
+.registration-form-container {
+    padding: 50px;
+}
+
+.notification {
+    position: fixed;
+    padding: 20px;
+    background: brown;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999999;
+    color: #fff;
+    opacity: 0;
+}
+.notification>#notification-message {
+    margin: 0;
+}
+
+.glyphicon-log-in{
+    font-size: large;
+    padding: 0 5px;
+}
+
+.add-btn{
+    padding: 0 15px;
+}
+
+/*.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; !* 15% from the top and centered *!
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; !* Could be more or less, depending on screen size *!
+}*/
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.myModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.myModal.animated, .myModal .animated {
+    animation-duration: 0.5s;
+}
+
+.glyphicon.glyphicon-ban-circle {
+    font-size: larger;
+}
